@@ -40,6 +40,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'MWBot_files')
 
 # Others
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9mJjrEZoA4s2Mjc1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+HNIchzVuVZ5mNTU0')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001670921990'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MW_BOTZ_SUPPORT')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'False')), False)
