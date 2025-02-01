@@ -107,7 +107,7 @@ This module only works for my admins
 <b>👤 ᴜsᴇʀs:</b> <code>{}</code>
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
-<b>📇 ꜰʀᴇᴇ ꜱᴩᴀᴄᴇ:</b> <code>{}</code>
+<b>📇 ꜰʀᴇᴇ ꜱᴩᴀᴄᴇ:</b> <code>{}</code>"""
     STATUS_TXT1 = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
  𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
  𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
