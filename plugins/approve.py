@@ -46,8 +46,8 @@ async def accept_request(client, r):
         rm = InlineKeyboardMarkup([
             [InlineKeyboardButton('🎉 Add Me To Your Groups 🎉', url=f'http://t.me/{CONFIG["bot_username"]}?startgroup=true')],
             [
-                InlineKeyboardButton('OTT Updates', url=CONFIG["support_channel_url"]),
-                InlineKeyboardButton('Main Channel', url=CONFIG["main_channel_url"])
+                InlineKeyboardButton('ʙᴏᴛ ꜱᴜᴩᴩᴏʀᴛ', url=CONFIG["support_channel_url"]),
+                InlineKeyboardButton('ᴍᴡ ʙᴏᴛᴢ', url=CONFIG["main_channel_url"])
             ]
         ])
 
