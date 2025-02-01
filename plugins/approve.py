@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Configuration options (can be extended as needed)
 CONFIG = {
-    "bot_username": "REXIESCATBOT",
+    "bot_username": "TEAMILLUMINIXBOT",
     "main_channel_url": "https://t.me/MW_BOTS",
     "support_channel_url": "https://t.me/MW_BOTZ_SUPPORT",
     "photo_url": "https://i.ibb.co/Q9Hm3Dg/175540848.jpg",  # Replace with your actual image URL
