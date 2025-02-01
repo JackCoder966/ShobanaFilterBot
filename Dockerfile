@@ -6,8 +6,8 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /shobanafilterbot
-WORKDIR /shobanafilterbot
+RUN mkdir /ShobanaFilterBot
+WORKDIR /ShobanaFilterBot
 COPY start.sh /start.sh
 CMD ["python3", "bot.py"]
 
