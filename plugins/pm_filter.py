@@ -9,7 +9,7 @@ import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
-    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, GRP_LNK, CHNL_LNK
+    SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, GRP_LNK, CHNL_LNK, SUPPORT_CHAT_ID
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -32,7 +32,7 @@ SPELL_CHECK = {}
 
 Client.on_message(filters.group | filters.private & filters.text & filters.incoming)
 async def give_filter(client, message):
-    if message.chat.id != SUPPORT_CHAT:
+    if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
         if manual == False:
             settings = await get_settings(message.chat.id)
